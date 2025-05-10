@@ -1,20 +1,16 @@
-Você está criando um sistema de verificação de status de pagamento de clientes. Dependendo do status, o sistema deve exibir uma mensagem apropriada:
+Você está desenvolvendo um sistema de pagamento e todos os produtos precisam receber um desconto de 10% antes de serem exibidos para as pessoas. Escreva um programa que:
 
-● Se o status for "pendente", exibe: "Pagamento pendente".
-
-● Se o status for "aprovado", exibe: "Pagamento aprovado".
-
-● Se o status for "recusado", exibe: "Pagamento recusado".
-
-Use o switch/case para criar um programa que faça essa verificação e mostre a mensagem correspondente ao status do pagamento.
+● Crie um array com os preços originais dos produtos.
+● Use o método map() para aplicar 10% de desconto em cada item.
+● Exiba o novo array com os preços já com o desconto aplicado.
 
 **Exemplo de entrada:**
 
 ```js
-const status = "aprovado"
+const precos = [100, 80, 50, 120];
 ```
 **Saída esperada:**
 
 ```js
-Pagamento aprovado.
+Preços com desconto: [90, 72, 45, 108]
 ```

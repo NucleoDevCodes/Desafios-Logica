@@ -1,26 +1,31 @@
-Você está criando um sistema para um jogo, onde o personagem tem que passar por duas condições para conseguir avançar para o próximo nível:
+Você está desenvolvendo um sistema de controle de acesso para um evento exclusivo. Cada participante fornece seu nome e idade, mas apenas maiores de 18 anos podem entrar. Seu objetivo é exibir quem teve acesso liberado e criar uma lista final apenas com os nomes desses participantes.
 
-● O personagem precisa ter mais de 50 pontos.
+Para isso, você precisa:
 
-● O personagem deve ter pelo menos uma vida restante.
-
-Crie um programa que, dado os pontos e as vidas restantes, verifique se o personagem pode ou não avançar para o próximo nível.
+● Criar um array com objetos contendo nome e idade de cada participante.
+● Usar o método filter() para:
+Selecionar somente os participantes com 18 anos ou mais.
+Exibir no console a mensagem "Acesso liberado para: [nome]" para cada um que passou.
+● Usar o método map() para criar um novo array com apenas os nomes dos autorizados.
+● Exibir a lista de aprovados no final.
 
 **Exemplo de entrada:**
 
 ```js
-const pontos = 60;
-const vidas = 1;
+const participantes = [
+  { nome: 'Ana', idade: 17 },
+  { nome: 'Bruno', idade: 22 },
+  { nome: 'Carla', idade: 19 },
+  { nome: 'Daniel', idade: 15 },
+  { nome: 'Eduarda', idade: 25 }
+];
 ```
 
 **Saída esperada:**
 
 ```js
-Próximo nível liberado!
-```
-
-Ou caso não cumpra os requisitos:
-
-```js
-Não pode avançar para o próximo nível.
+Acesso liberado para: Bruno
+Acesso liberado para: Carla
+Acesso liberado para: Eduarda
+Lista de aprovados: ['Bruno', 'Carla', 'Eduarda']
 ```

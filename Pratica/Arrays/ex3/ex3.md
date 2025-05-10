@@ -1,35 +1,24 @@
-Você é uma pessoa desenvolvedora de um sistema para uma escola que organiza atividades para diferentes faixas etárias. As regras são:
+Você está criando um painel para um sistema de chamada escolar. Você recebeu uma lista com os nomes das pessoas estudantes de uma turma e precisa exibir um por um para fazer a chamada em sala. Escreva um programa que:
 
-● Se a pessoa tiver menos de 12 anos, ela deve ser classificada como "Infantil". 
-
-● Se a pessoa tiver 12 anos ou mais, mas menos de 18 anos, ela deve ser classificada como "Juvenil". 
-
-● Se a pessoa tiver 18 anos ou mais, ela deve ser classificada como "Adulto".
-
-Crie um programa que, dado o valor da idade, classifique a pessoa na categoria correspondente.
+●  Crie um array com os nomes das pessoas.
+●  Use o for...of para exibir cada nome individualmente.
 
 **Exemplo de entrada:**
 
 ```js
-const idade = 15;
+const estudantes = ['Carla', 'João', 'Marina', 'Lucas', 'Beatriz'];
 ```
 
 **Saída esperada:**
 
-Se idade for 8:
-
 ```js
-Infantil
+Estudante: Carla  
+Estudante: João  
+Estudante: Marina  
+Estudante: Lucas  
+Estudante: Beatriz  
 ```
 
-Se idade for 13:
 
-```js
-Juvenil
-```
 
-Se idade for 20:
 
-```js
-Adulto
-```

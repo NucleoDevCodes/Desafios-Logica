@@ -1,22 +1,27 @@
 # 1- Exercício
 
-Você está desenvolvendo um sistema de controle de acesso para um evento. Para entrar, a pessoa precisa ter 18 anos ou mais.
+Imagine que você está desenvolvendo um sistema para controlar uma lista de compras. O primeiro passo é permitir que a pessoa usuária acesse e altere os itens dessa lista.
 
-Crie um programa que, dado o valor da idade, verifique se a pessoa pode ou não entrar no evento. Exiba a mensagem informando se o acesso foi ou não permitido.
+Escreva um programa que:
+
+● Crie um array com os itens iniciais da lista de compras.
+● Acesse e exiba o segundo item da lista.
+● Modifique o último item da lista para um novo valor.
+
 
 **Exemplo de entrada:**
 ```js
-const idade = 20;
+const listaDeCompras = ['arroz', 'feijão', 'macarrão', 'tomate'];
 ```
 
 
 
 **Saída esperada:**
 
-Caso o usuário tenha 18 anos ou mais:
 
 ```js
-Acesso permitido.
+Segundo item da lista: feijão
+Lista após modificação: ['arroz', 'feijão', 'macarrão', 'fruta']
 ```
 
 

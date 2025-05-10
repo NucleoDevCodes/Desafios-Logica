@@ -1,33 +1,22 @@
-Você está desenvolvendo um sistema meteorológico para informar sobre o clima do dia. Com base na temperatura, o sistema deve classificar o dia conforme os critérios abaixo:
+Você está criando um sistema para controlar os gastos mensais da sua casa. Os valores das despesas estão em um array, e você precisa somar todos esses valores para saber o total gasto no mês.
 
-● **Menor que 15: "Frio"** 
+Escreva um programa que:
 
-● **De 15 a 25: "Agradável"** 
+● Crie um array com os valores das despesas.
+● Use um loop for para somar os valores.
+● Exiba o total gasto.
 
-● **Acima de 25: "Quente"** 
-
-Escreva um programa que, dado um valor de temperatura e imprima a mensagem correspondente.
 
 **Exemplo de entrada:**
 
 ```js
-const temperatura = 22;
+const despesas = [120, 80, 45.5, 200, 60];
 ```
 
 **Saída esperada:**
 
-Se temperatura for por exemplo 10:
 
 ```js
-Frio
+Total de despesas: R$ 505.5
 ```
 
-**Se for 22:**
-
-```js
-Agradável
-```
-
- **Se for 30:**
-
-Quente

@@ -1,22 +1,18 @@
-Você está desenvolvendo um sistema para verificação de compatibilidade de frutas em um processo de preparo de sucos. O sistema precisa verificar se o tipo de fruta informado é compatível com o tipo esperado, de acordo com uma receita.
+Você está desenvolvendo um sistema de pedidos online. Em certo momento, o sistema precisa criar uma cópia da lista de pedidos para simular alterações, sem modificar o array original. Escreva um programa que:
 
-O suco pode ser feito somente com "laranja" ou "abacaxi".
-Qualquer outra fruta que não seja "laranja" ou "abacaxi" deve gerar uma mensagem de erro, informando que a fruta não é compatível.
-Crie um programa que, dado o nome da fruta, verifique se ela é compatível com a receita.
+● Crie um array com alguns pedidos.
+● Faça uma cópia do array.
+● Adicione um novo item apenas na cópia.
+● Exiba os dois arrays para mostrar que o original não foi alterado.
 
 **Exemplo de entrada:**
 
 ```js
-const fruta = "maçã";
+const pedidos = ['camiseta', 'calça', 'tênis'];
 ```
 **Saída esperada:**
 
 ```js
-Fruta incompatível para a receita.
-```
-
-Ou caso seja "laranja" ou "abacaxi":
-
-```js
-Fruta compatível para a receita.
+Array original: ['camiseta', 'calça', 'tênis']
+Array copiado: ['camiseta', 'calça', 'tênis', 'boné']
 ```
