@@ -3,9 +3,10 @@ Você está desenvolvendo um sistema para ajudar pessoas a entenderem melhor o c
 Sua missão é criar três funções separadas, com responsabilidades bem definidas:
 
 ● calcularConsumo(potencia, horasPorDia): Retorna o consumo mensal em kWh, com base na fórmula: consumo = (potencia × horasPorDia × 30) / 1000
+
 ● classificarConsumo(consumo): Retorna a classificação com base na tabela:
 
-<img src=''>
+<img src='slide.png' atl='slide'>
 
 ● exibirResumo(nomeAparelho, consumo, classificacao): Exibe uma mensagem como:"Geladeira tem consumo de 180 kWh/mês e é classificada como Consumo moderado."
 
